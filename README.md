@@ -7,7 +7,6 @@ PHSCD é uma tecnologia desenvolvida para detectar, segmentar, classificar e rec
 - **Detecção de Mãos**: Utiliza um modelo YOLO pré-treinado para detectar a presença de mãos em uma imagem.
 - **Recorte de Mãos**: Recorta a região da mão detectada e adiciona bordas para normalizar as dimensões.
 - **Segmentação de Mãos**: Gera uma máscara binária para a região da mão usando um modelo de segmentação.
-- **Preenchimento de Buracos**: Preenche buracos pequenos na máscara de segmentação.
 - **Processamento em Lote**: Processa todas as imagens em uma pasta, aplicando a detecção, segmentação e recorte de mãos conforme especificado.
 
 ## Estrutura do Projeto
