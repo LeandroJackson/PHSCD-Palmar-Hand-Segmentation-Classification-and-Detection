@@ -15,13 +15,6 @@ PHSCD é uma tecnologia desenvolvida para detectar, segmentar, classificar e rec
 .
 ├── README.md
 ├── requirements.txt
-├── src
-│   ├── detect_crop.py
-│   ├── segmentation.py
-│   ├── utils.py
-│   └── main.py
-├── models
+├── phscd.py
+├── model
 │   ├── detectHand.pt
-│   └── yolov8m-seg.pt
-└── examples
-    └── sample_image.jpg
